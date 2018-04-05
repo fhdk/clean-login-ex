@@ -1,6 +1,6 @@
 === Clean Login ===
 Contributors: hornero, carazo, fhdk
-Donate link: http://hundewadt.dk
+Donate link: https://paypal.me/fhdk/20
 Tags: form, login, registration, editor, lost password, responsive, wpml, internationalization, languages, role, CAPTCHA, reCaptcha, honeypot, shortcode, wordpress, frontend
 Requires at least: 3.4
 Tested up to: 4.9

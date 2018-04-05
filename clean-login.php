@@ -9,7 +9,7 @@ Plugin URI: https://github.com/fhdk/clean-login-ex
 Description: Responsive Frontend Login and Registration plugin. A plugin for displaying login, register, editor and restore password forms through shortcodes. [clean-login] [clean-login-edit] [clean-login-register] [clean-login-restore]
 Author: fhdk, codection
 Version: 1.9.3
-Author URI: https://codection.com
+Author URI: https://github.com/fhdk/clean-login-ex
 Text Domain: clean-login-ex
 Domain Path: /lang
 */
@@ -769,7 +769,7 @@ add_action( 'plugins_loaded', 'clean_login_load_textdomain' );
 */
 function clean_login_plugin_row_meta( $links, $file ){
 	if ( strpos( $file, basename( __FILE__ ) ) !== false ) {
-		$new_links = array( '<a href="https://www.paypal.me/codection" target="_blank">' . __( 'Donate', 'clean-login' ) . '</a>' );
+		$new_links = array( '<a href="https://www.paypal.me/fhdk/20" target="_blank">' . __( 'Donate', 'clean-login' ) . '</a>' );
 		$links = array_merge( $links, $new_links );
 	}
 	return $links;
